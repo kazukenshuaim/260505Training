@@ -1,3 +1,5 @@
+#バックエンド起動方法：uv run uvicorn backend.main:app --reload --host 127.0.0.1 --port 8001
+
 from fastapi import FastAPI #FastAPIライブラリからAPIをつくるための部品を取り込む
 from pydantic import BaseModel #受け取るデータの方を定義するための部品を取り込む
 
